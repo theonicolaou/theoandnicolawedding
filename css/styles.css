@@ -7,7 +7,7 @@ body {
   height: 100px;
   display: inline-block;
   background: #d5b292;
-  background-image: url(images/scrabble-tile-dark-bg.jpg);
+  background-image: url(../images/scrabble-tile-dark-bg.jpg);
   background-repeat: no-repeat;
   color: #2a1f1b;
   border-radius: 4px;
