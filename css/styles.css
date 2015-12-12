@@ -3,17 +3,17 @@ body {
   text-align: center; }
 
 .cs-text .letter {
-  width: 90px;
-  height: 100px;
+  width: 75px;
+  height: 85px;
   display: inline-block;
   background: #d5b292;
   background-image: url(../images/scrabble-tile-dark-bg.jpg);
   background-repeat: no-repeat;
   color: #2a1f1b;
   border-radius: 4px;
-  font-size: 60px;
+  font-size: 45px;
   font-weight: 400;
-  line-height: 100px;
+  line-height: 85px;
   margin: 10px 3px;
   text-align: center;
   cursor: default;
