@@ -4946,7 +4946,7 @@ meta.foundation-mq-topbar {
 /* Wrapped around .top-bar to contain to grid width */
 .contain-to-grid {
   width: 100%;
-  background: #333333; }
+  background: #96377C; }
   .contain-to-grid .top-bar {
     margin-bottom: 0; }
 
@@ -4970,7 +4970,7 @@ meta.foundation-mq-topbar {
       z-index: 98; }
 
 .top-bar {
-  background: #333333;
+  background: #96377C;
   height: 2.8125rem;
   line-height: 2.8125rem;
   margin-bottom: 0;
@@ -5056,7 +5056,7 @@ meta.foundation-mq-topbar {
     background: transparent;
     height: auto; }
     .top-bar.expanded .title-area {
-      background: #333333; }
+      background: #96377C; }
     .top-bar.expanded .toggle-topbar a {
       color: #888888; }
       .top-bar.expanded .toggle-topbar a span::after {
@@ -5082,7 +5082,7 @@ meta.foundation-mq-topbar {
     width: 100%; }
   .top-bar-section .divider,
   .top-bar-section [role="separator"] {
-    border-top: solid 1px #1a1a1a;
+    border-top: solid 1px #4b1c3e;
     clear: both;
     height: 1px;
     width: 100%; }
@@ -5287,7 +5287,7 @@ meta.foundation-mq-topbar {
 
 @media only screen and (min-width: 40.0625em) {
   .top-bar {
-    background: #333333;
+    background: #96377C;
     overflow: visible; }
     .top-bar:before, .top-bar:after {
       content: " ";
@@ -5320,7 +5320,7 @@ meta.foundation-mq-topbar {
       position: relative;
       top: 0.53125rem; }
     .top-bar.expanded {
-      background: #333333; }
+      background: #96377C; }
 
   .contain-to-grid .top-bar {
     margin: 0 auto;
@@ -5425,7 +5425,7 @@ meta.foundation-mq-topbar {
         top: 0; }
     .top-bar-section > ul > .divider,
     .top-bar-section > ul > [role="separator"] {
-      border-right: solid 1px #4e4e4e;
+      border-right: solid 1px #b34294;
       border-bottom: none;
       border-top: none;
       clear: none;
@@ -5933,7 +5933,7 @@ blockquote p {
 
 .tab-bar {
   -webkit-backface-visibility: hidden;
-  background: #333333;
+  background: #FFFFFF;
   color: #FFFFFF;
   height: 2.8125rem;
   line-height: 2.8125rem;
@@ -5951,7 +5951,7 @@ blockquote p {
   position: absolute;
   top: 0;
   width: 2.8125rem;
-  border-right: solid 1px #1a1a1a;
+  border-right: solid 1px gray;
   left: 0; }
 
 .right-small {
@@ -5959,7 +5959,7 @@ blockquote p {
   position: absolute;
   top: 0;
   width: 2.8125rem;
-  border-left: solid 1px #1a1a1a;
+  border-left: solid 1px gray;
   right: 0; }
 
 .tab-bar-section {
@@ -6122,7 +6122,7 @@ ul.off-canvas-list {
     ul.off-canvas-list li a:hover {
       background: #692757; }
     ul.off-canvas-list li a:active {
-      background: #242424; }
+      background: #b3b3b3; }
 
 .move-right > .inner-wrap {
   -webkit-transform: translate3d(15.625rem, 0, 0);
