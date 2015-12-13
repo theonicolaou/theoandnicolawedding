@@ -3,11 +3,9 @@ body {
   text-align: center; }
 
 .tnwedding--nav-bar {
-  border-bottom: 1px solid #96377C;
-  background-color: #FFFFFF; }
+  border-bottom: 1px solid #96377C; }
   .tnwedding--nav-bar .tnwedding--title-bar--title {
-    color: #96377C;
-    font-weight: normal; }
+    color: #96377C; }
   .tnwedding--nav-bar .tnwedding--nav {
     display: inline-block; }
   .tnwedding--nav-bar .tnwedding--off-canvas-toggle {
@@ -66,7 +64,7 @@ body {
   box-shadow: 3px 3px 4px rgba(107, 107, 107, 0.8), inset 3px 0 2px rgba(255, 255, 255, 0.4), inset 0 3px 0px rgba(255, 255, 255, 0.5), inset -2px -3px 0px rgba(143, 128, 82, 0.6); }
 
 .number {
-  font-size: 15px;
+  font-size: 13px;
   position: relative;
   right: 0;
   top: 5px; }
