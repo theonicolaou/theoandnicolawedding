@@ -23,7 +23,7 @@ grunt.initConfig({
 	watch: {
 		sass: {
 			files: ['scss/**/*.scss'],
-			tasks: ['sass'],
+			tasks: ['sass', 'notify:sass'],
 			
 			options: {
 				livereload: 35729
