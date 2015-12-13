@@ -1,43 +1,17 @@
 .tnwedding--nav-bar {
-	// border-top: 1px solid $primary-color;
 	border-bottom: 1px solid $primary-color;
 	background-color: $white;
 
-	.tnwedding--off-canvas-toggle {
-		width: 3.5rem;
-	}
-
-	.tnwedding--off-canvas-toggle-link {
-		color: $primary-color;
-
-		&:hover {
-			color: $primary-color;
-		}
-
-		&:focus {
-			color: $primary-color;
-		}
-	}
-
 	.tnwedding--title-bar--title {
 		color: $primary-color;
+		font-weight: normal;
 	}
-}
 
-.tnwedding--nav-bar {
-	.top-bar-section {
-		.tnwedding--nav {
-			display: inline-block;
+	.tnwedding--nav {
+		display: inline-block;
+	}
 
-			li {
-				a {
-					background-color: $primary-color;
-
-					&:hover {
-						background-color: rgba($primary-color, 0.75);
-					}
-				}
-			}
-		}
+	.tnwedding--off-canvas-toggle {
+		border-right-color: $primary-color;
 	}
 }
