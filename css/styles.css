@@ -2,6 +2,27 @@
 body {
   text-align: center; }
 
+.tnwedding--nav-bar {
+  border-bottom: 1px solid #96377C;
+  background-color: #FFFFFF; }
+  .tnwedding--nav-bar .tnwedding--off-canvas-toggle {
+    width: 3.5rem; }
+  .tnwedding--nav-bar .tnwedding--off-canvas-toggle-link {
+    color: #96377C; }
+    .tnwedding--nav-bar .tnwedding--off-canvas-toggle-link:hover {
+      color: #96377C; }
+    .tnwedding--nav-bar .tnwedding--off-canvas-toggle-link:focus {
+      color: #96377C; }
+  .tnwedding--nav-bar .tnwedding--title-bar--title {
+    color: #96377C; }
+
+.tnwedding--nav-bar .top-bar-section .tnwedding--nav {
+  display: inline-block; }
+  .tnwedding--nav-bar .top-bar-section .tnwedding--nav li a {
+    background-color: #96377C; }
+    .tnwedding--nav-bar .top-bar-section .tnwedding--nav li a:hover {
+      background-color: rgba(150, 55, 124, 0.75); }
+
 .cs-text .letter {
   width: 75px;
   height: 85px;
