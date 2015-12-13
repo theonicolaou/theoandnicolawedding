@@ -43,10 +43,10 @@ body {
         line-height: 47px; } }
     @media screen and (min-width: 768px) {
       .cs-text .letter {
-        width: 55px;
-        height: 65px;
-        font-size: 35px;
-        line-height: 65px; } }
+        width: 53px;
+        height: 58px;
+        font-size: 30px;
+        line-height: 58px; } }
 
 .space {
   width: 90px;
