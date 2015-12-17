@@ -32,6 +32,7 @@ grunt.initConfig({
 
 		html: {
 			files: ['*.html'],
+			tasks: ['notify:html'],
 			options: {
 				livereload: 35729
 			}
@@ -67,6 +68,15 @@ grunt.initConfig({
 				message: "SCSS compilation complete",
 				success: true,
 				duration: 5	
+			}
+		},
+
+		html: {
+			options: {
+				title: "HTML file",
+				message: "HTML file update",
+				success: true,
+				duration: 5
 			}
 		},
 	},
