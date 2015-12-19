@@ -11,6 +11,9 @@ body {
   .tnwedding--nav-bar .tnwedding--off-canvas-toggle {
     border-right-color: #96377C; }
 
+.tnwedding--content-container {
+  min-height: 272px; }
+
 .cs-text {
   clear: both; }
   .cs-text .letter {
