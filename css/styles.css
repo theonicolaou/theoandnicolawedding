@@ -2,6 +2,10 @@
 body {
   text-align: center; }
 
+.display--inline-block {
+  display: inline-block;
+  float: none; }
+
 .tnwedding--nav-bar {
   border-bottom: 1px solid #96377C; }
   .tnwedding--nav-bar .tnwedding--title-bar--title {
