@@ -33,7 +33,16 @@ body {
   background-size: contain;
   display: block;
   width: 100%;
-  height: 750px; }
+  height: 170px; }
+  @media screen and (min-width: 640px) {
+    .tnwedding--location-image {
+      height: 335px; } }
+  @media screen and (min-width: 768px) {
+    .tnwedding--location-image {
+      height: 405px; } }
+  @media screen and (min-width: 1024px) {
+    .tnwedding--location-image {
+      height: 750px; } }
   @media screen and (min-width: 1440px) {
     .tnwedding--location-image {
       background-size: cover;
