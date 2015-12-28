@@ -14,8 +14,53 @@ body {
 .tnwedding--content-container {
   min-height: 272px; }
 
+.tnwedding--content-title {
+  margin-top: 20px;
+  margin-bottom: 20px; }
+
+.tnwedding--content {
+  margin-top: 20px;
+  margin-bottom: 20px; }
+
+.tnwedding--image--full-width {
+  padding-left: 0;
+  padding-right: 0; }
+
+.tnwedding--location-image {
+  background-image: url("http://www.sopwellhouse.co.uk/uploads/images/headerimages/Sopwell-House-Exterior.jpg");
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: contain;
+  display: block;
+  width: 100%;
+  height: 750px; }
+  @media screen and (min-width: 1440px) {
+    .tnwedding--location-image {
+      background-size: cover;
+      background-position: center -140px;
+      height: 600px; } }
+
 .cs-text {
   clear: both; }
+  @media screen and (min-width: 1024px) {
+    .cs-text {
+      margin-left: 15px; } }
+  .cs-text .space {
+    width: 90px;
+    height: 100px;
+    display: inline-block;
+    background: #d5b292;
+    color: #2a1f1b;
+    border-radius: 4px;
+    font-size: 60px;
+    font-weight: 400;
+    line-height: 100px;
+    margin: 10px 3px;
+    text-align: center;
+    vertical-align: bottom;
+    cursor: default;
+    text-transform: uppercase;
+    box-shadow: 3px 3px 4px rgba(107, 107, 107, 0.8), inset 3px 0 2px rgba(255, 255, 255, 0.4), inset 0 3px 0px rgba(255, 255, 255, 0.5), inset -2px -3px 0px rgba(143, 128, 82, 0.6); }
   .cs-text .letter {
     background: #d5b292 url("../images/scrabble-tile-dark-bg.jpg") no-repeat scroll 0 0;
     border-radius: 4px;
@@ -34,6 +79,12 @@ body {
     text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.9), 0 -1px 1px rgba(255, 255, 255, 0.2);
     text-transform: uppercase;
     width: 35px; }
+    @media screen and (min-width: 480px) {
+      .cs-text .letter {
+        width: 31px;
+        height: 31px;
+        line-height: 25px;
+        font-size: 18px; } }
     @media screen and (min-width: 640px) {
       .cs-text .letter {
         width: 40px;
@@ -49,28 +100,14 @@ body {
         font-size: 30px;
         line-height: 58px; } }
 
-.space {
-  width: 90px;
-  height: 100px;
-  display: inline-block;
-  background: #d5b292;
-  color: #2a1f1b;
-  border-radius: 4px;
-  font-size: 60px;
-  font-weight: 400;
-  line-height: 100px;
-  margin: 10px 3px;
-  text-align: center;
-  vertical-align: bottom;
-  cursor: default;
-  text-transform: uppercase;
-  box-shadow: 3px 3px 4px rgba(107, 107, 107, 0.8), inset 3px 0 2px rgba(255, 255, 255, 0.4), inset 0 3px 0px rgba(255, 255, 255, 0.5), inset -2px -3px 0px rgba(143, 128, 82, 0.6); }
-
 .number {
   font-size: 13px;
   position: relative;
   right: 0;
   top: 5px; }
+  @media screen and (min-width: 480px) {
+    .number {
+      font-size: 11px; } }
   @media screen and (min-width: 768px) {
     .number {
       font-size: 17px;
