@@ -1,6 +1,10 @@
 .cs-text {
 	clear: both;
 
+	@media screen and (min-width: $desktop) {
+		margin-left: 15px;
+	}
+
 	.space {
 		width: 90px;
 		height: 100px;
