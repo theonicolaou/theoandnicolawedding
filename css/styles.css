@@ -15,11 +15,22 @@ body {
 .tnwedding--nav-bar {
   border-bottom: 1px solid #96377C; }
   .tnwedding--nav-bar .tnwedding--title-bar--title {
-    color: #96377C; }
+    color: #96377C;
+    font-family: "Oswald", sans-serif; }
   .tnwedding--nav-bar .tnwedding--nav {
     display: inline-block; }
+    .tnwedding--nav-bar .tnwedding--nav li a {
+      font-family: "Oswald", sans-serif;
+      font-size: 0.95rem; }
   .tnwedding--nav-bar .tnwedding--off-canvas-toggle {
     border-right-color: #96377C; }
+
+.tnwedding--offcanvas-nav li label {
+  font-family: "Oswald", sans-serif;
+  font-size: 0.9rem !important; }
+.tnwedding--offcanvas-nav li a {
+  font-family: "Oswald", sans-serif;
+  font-size: 0.95rem; }
 
 .tnwedding--content-container {
   min-height: 272px;
