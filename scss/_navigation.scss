@@ -3,13 +3,35 @@
 
 	.tnwedding--title-bar--title {
 		color: $primary-color;
+		font-family: $font-oswald;
 	}
 
 	.tnwedding--nav {
 		display: inline-block;
+
+		li {
+			a {
+				font-family: $font-oswald;
+				font-size: 0.95rem;
+			}
+		}
 	}
 
 	.tnwedding--off-canvas-toggle {
 		border-right-color: $primary-color;
+	}
+}
+
+.tnwedding--offcanvas-nav {
+	li {
+		label {
+			font-family: $font-oswald;
+			font-size: 0.9rem !important;
+		}
+
+		a {
+			font-family: $font-oswald;
+			font-size: 0.95rem;
+		}
 	}
 }
