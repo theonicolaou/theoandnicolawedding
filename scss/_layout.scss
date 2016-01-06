@@ -2,6 +2,15 @@
 	min-height: 272px;
 	text-align: left;
 	font-family: $font-oswald;
+
+	a {
+		border-bottom: 1px dotted $primary-color;
+
+		&:hover {
+			text-decoration: none;
+			border-bottom-style: solid;
+		}
+	}
 }
 
 .tnwedding--content-title {
