@@ -1,6 +1,10 @@
 .tnwedding--nav-bar {
 	border-bottom: 1px solid $primary-color;
 
+	&.tab-bar {
+		background-color: $secondary-color;
+	}
+
 	.tnwedding--title-bar--title {
 		color: $primary-color;
 		font-family: $font-oswald;
