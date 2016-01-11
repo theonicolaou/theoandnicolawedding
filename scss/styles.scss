@@ -1,8 +1,8 @@
-@import "_variables";
-@import "_fonts";
-@import "_base";
-@import "_utilities";
-@import "_navigation";
-@import "_layout";
-@import "_scrabble";
-@import "_google-maps";
+@import "core/_variables";
+@import "core/_utilities";
+@import "layout/_layout";
+@import "base/_fonts";
+@import "base/_base";
+@import "components/_navigation";
+@import "components/_scrabble";
+@import "components/_google-maps";
