@@ -12,7 +12,8 @@
 
 /** base.scss **/
 body {
-  text-align: center; }
+  text-align: center;
+  background-color: #FFECD7; }
 
 .display--inline-block {
   display: inline-block;
@@ -20,6 +21,8 @@ body {
 
 .tnwedding--nav-bar {
   border-bottom: 1px solid #96377C; }
+  .tnwedding--nav-bar.tab-bar {
+    background-color: #FFECD7; }
   .tnwedding--nav-bar .tnwedding--title-bar--title {
     color: #96377C;
     font-family: "Oswald", sans-serif; }
