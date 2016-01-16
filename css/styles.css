@@ -71,7 +71,11 @@ body {
   background-color: #FFECD7; }
 
 .tnwedding--nav-bar {
+  border-top: 1px solid #96377C;
   border-bottom: 1px solid #96377C; }
+  @media screen and (min-width: 768px) {
+    .tnwedding--nav-bar {
+      border-top: none; } }
   .tnwedding--nav-bar.tab-bar {
     background-color: #FFECD7; }
   .tnwedding--nav-bar .tnwedding--title-bar--title {

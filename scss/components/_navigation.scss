@@ -1,4 +1,10 @@
 .tnwedding--nav-bar {
+	border-top: 1px solid $primary-color;
+
+	@media screen and (min-width: $tablet) {
+		border-top: none;
+	}
+	
 	border-bottom: 1px solid $primary-color;
 
 	&.tab-bar {
