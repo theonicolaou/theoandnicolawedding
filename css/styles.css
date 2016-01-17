@@ -225,8 +225,8 @@ body {
 
 .tnwedding--rsvp-form hr {
   border-color: #96377C; }
-
-.tnwedding--rsvp-form--button {
-  padding: 0.6em; }
+.tnwedding--rsvp-form .tnwedding--rsvp-form--button {
+  padding: 0.6em 1em;
+  font-family: "Oswald", sans-serif; }
 
 /*# sourceMappingURL=styles.css.map */
