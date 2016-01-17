@@ -1,3 +1,8 @@
 .tnwedding--rsvp-form {
-	// overflow: scroll;
+	width: 99%;
+	height: 1820px;
+
+	@media screen and (min-width: $tablet) {
+		height: 1000px;
+	}
 }

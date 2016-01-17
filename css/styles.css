@@ -213,4 +213,11 @@ body {
       .google-maps iframe {
         width: 97%; } }
 
+.tnwedding--rsvp-form {
+  width: 99%;
+  height: 1820px; }
+  @media screen and (min-width: 768px) {
+    .tnwedding--rsvp-form {
+      height: 1000px; } }
+
 /*# sourceMappingURL=styles.css.map */
