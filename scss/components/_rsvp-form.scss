@@ -1,8 +1,22 @@
-.tnwedding--rsvp-form {
+.tnwedding--rsvp-form-iframe {
 	width: 99%;
-	height: 1820px;
+	height: 2100px;
+
+	@media screen and (min-width: 640px) {
+		height: 2040px;
+	}
 
 	@media screen and (min-width: $tablet) {
-		height: 1000px;
+		height: 1150px;
 	}
+}
+
+.tnwedding--rsvp-form {
+	hr {
+		border-color: $primary-color;
+	}
+}
+
+.tnwedding--rsvp-form--button {
+	padding: 0.6em;
 }
