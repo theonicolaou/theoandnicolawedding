@@ -14,6 +14,11 @@
 	.tnwedding--title-bar--title {
 		color: $primary-color;
 		font-family: $font-oswald;
+		font-size: 1.2rem;
+
+		@media screen and (min-width: $tablet) {
+			font-size: 1.125rem;
+		}
 	}
 
 	.tnwedding--nav {
@@ -22,7 +27,11 @@
 		li {
 			a {
 				font-family: $font-oswald;
-				font-size: 0.95rem;
+				font-size: 1.1rem;
+
+				@media screen and (min-width: $tablet) {
+					font-size: 0.95rem;
+				}
 			}
 		}
 	}
@@ -34,14 +43,24 @@
 
 .tnwedding--offcanvas-nav {
 	li {
-		label {
-			font-family: $font-oswald;
-			font-size: 0.9rem !important;
-		}
-
 		a {
 			font-family: $font-oswald;
-			font-size: 1rem;
+			font-size: 1.1rem;
+
+			@media screen and (min-width: $tablet) {
+				font-size: 0.95rem;
+			}
 		}
+	}
+}
+
+.tnwedding--off-canvas-nav--title {
+	padding-top: 0.5rem !important;
+	padding-bottom: 0.5rem !important;
+	font-family: $font-oswald;
+	font-size: 1.1rem !important;
+
+	@media screen and (min-width: $tablet) {
+		font-size: 0.95rem !important;
 	}
 }
