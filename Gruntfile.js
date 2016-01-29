@@ -19,6 +19,34 @@ grunt.initConfig({
 		}
 	},
 
+	//Minify css in /css folder
+	cssmin: {
+		target: {
+			files: [{
+				expand: true,
+				cwd: 'css',
+				src: ['*.css', '!*.min.css'],
+				dest: 'css',
+				ext: '.min.css'
+			}],
+			tasks: ['notify:optimise'],
+		}
+	},
+
+	//Minify js in /js folder
+	uglify: {
+		my_target: {
+			files: [{
+				expand: true,
+				cwd: 'js/vendor',
+				src: ['*.js', '!*.min.js'],
+				dest: 'js/vendor',
+				ext: '.min.js'
+			}],
+			tasks: ['notify:optimise'],
+		}
+	},
+
 	//watch for changes to SCSS files.
 	watch: {
 		sass: {
@@ -79,11 +107,21 @@ grunt.initConfig({
 				duration: 5
 			}
 		},
+
+		optimise: {
+			options: {
+				title: "Optimise files",
+				message: "CSS and JS files minified",
+				success: true,
+				duration: 5
+			}
+		},
 	},
 });
 
-	grunt.registerTask('cleanit', ['clean', 'notify:clean']);
+	grunt.registerTask('cleanit', ['clean','notify:clean']);
 	grunt.registerTask('develop', ['sass','notify:sass','connect:dev','watch','notify:watch']);
+	grunt.registerTask('optimise', ['clean','notify:clean','cssmin','uglify','notify:optimise']);
 	grunt.registerTask('serve', ['connect:dev']);
 	grunt.registerTask('watchit', ['watch']);
 };
