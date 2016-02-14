@@ -10,12 +10,17 @@
 	<script src="js/vendor/jquery.min.js"></script>
 	<script src="js/vendor/foundation.min.js"></script>
 	<script>
-	var formHeight = $('#form-content').height() + '200px';
-	$('#more-fields_button').click(function() {
-		$('.tnwedding--rsvp-form, .tnwedding--rsvp-form-container', window.parent.document).css({"height":formHeight});
-		console.log(formHeight);
+	// var formHeight = $('#form-content').height() + '200px';
+	// $('#more-fields_button').click(function() {
+	// 	$('.tnwedding--rsvp-form, .tnwedding--rsvp-form-container', window.parent.document).css({"height":formHeight});
+	// 	console.log(formHeight);
+	// });
+	<script type="text/javascript">
+	$(document).ready(function(){
+		console.log("ready to scroll!");
+    $(document).load().scrollTop(0);
 	});
-	</script>
+</script>
 </head>
 <body>
 
